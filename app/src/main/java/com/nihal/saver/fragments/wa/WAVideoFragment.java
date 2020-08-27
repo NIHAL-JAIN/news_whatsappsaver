@@ -47,7 +47,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * A simple {@link Fragment} subclass.
+ * A simple {@link Fragment} subclass.,,
  */
 public class WAVideoFragment extends Fragment {
     private static WAVideoFragment mInstance;
