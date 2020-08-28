@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">WApp Status Saver</string>
+    <string name="app_name">Whatsapp Status Saver</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -10,7 +10,7 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="status_image">Status Image</string>
 
-    <string name="title_activity_splash">WApp Status Saver</string>
+    <string name="title_activity_splash">Whatsapp Status Saver</string>
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
 

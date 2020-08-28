@@ -88,7 +88,7 @@ public class BWAVideoFragment extends Fragment {
 
         AdView adView = new AdView(activity);
         adView.setAdSize(AdSize.BANNER);
-        adView.setAdUnitId("ca-app-pub-6699687107380271/2126437250");
+        adView.setAdUnitId("ca-app-pub-1909005763209421/7695180740");
         mAdView = v.findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
