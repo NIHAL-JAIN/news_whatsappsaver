@@ -6,6 +6,8 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/duplicate wapp-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/duplicate wapp-app.iml" group="duplicate wapp/app" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/duplicate_wapp.iml" filepath="$PROJECT_DIR$/.idea/modules/duplicate_wapp.iml" group="duplicate_wapp" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/news_whatsappsaver.iml" filepath="$PROJECT_DIR$/.idea/modules/news_whatsappsaver.iml" group="news_whatsappsaver" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/news_whatsappsaver-app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/news_whatsappsaver-app.iml" group="news_whatsappsaver/app" />
     </modules>
   </component>
 </project>
