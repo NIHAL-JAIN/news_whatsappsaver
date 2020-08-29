@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//nihal
+//nihal jain
         AppRate.with(this)
                 .setInstallDays(0) // default 10, 0 means install day.
                 .setLaunchTimes(5) // default 10
