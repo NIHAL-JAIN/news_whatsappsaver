@@ -3,10 +3,10 @@ package com.nihal.saver.recycler;
 
 import android.content.Context;
 import android.os.Build;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentActivity;
-import android.support.v4.view.MenuItemCompat;
-import android.support.v7.view.ActionMode;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentActivity;
+import androidx.core.view.MenuItemCompat;
+import androidx.appcompat.view.ActionMode;
 import android.util.Log;
 import android.util.SparseBooleanArray;
 import android.view.Menu;

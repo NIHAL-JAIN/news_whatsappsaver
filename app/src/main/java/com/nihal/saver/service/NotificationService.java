@@ -8,8 +8,8 @@ import android.content.Intent;
 import android.os.Binder;
 import android.os.Environment;
 import android.os.IBinder;
-import android.support.v4.app.NotificationCompat.Builder;
-import android.support.v4.content.ContextCompat;
+import androidx.core.app.NotificationCompat.Builder;
+import androidx.core.content.ContextCompat;
 import android.util.Log;
 
 import com.nihal.saver.HelperMethods;
