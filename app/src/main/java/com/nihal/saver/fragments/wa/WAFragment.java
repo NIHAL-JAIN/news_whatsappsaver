@@ -29,9 +29,11 @@ public class WAFragment extends Fragment {
         viewPager = (ViewPager) v.findViewById(R.id.viewPager_wa);
         tabLayout = (TabLayout) v.findViewById(R.id.tab_layout_wa);
         viewPager.setOffscreenPageLimit(2);
+        //increase count to add new tabs
         ViewPagerWAAdapter adapter = new ViewPagerWAAdapter(getChildFragmentManager());
         adapter.addTabs("Images",new WAImageFragment());
         adapter.addTabs("Videos",new WAVideoFragment());
+//@@@ we can add new tabs here-
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
         return v;

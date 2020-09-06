@@ -31,7 +31,7 @@ public class VideoPlayer extends AppCompatActivity implements EasyVideoCallback{
     HelperMethods helperMethods;
     FloatingActionMenu menu;
     private InterstitialAd mInterstitialAd;
-    private EasyVideoPlayer player;
+    private EasyVideoPlayer player; ///this is video player reference variable
     int position=0;
     File f;
     class SomeClass implements View.OnClickListener {

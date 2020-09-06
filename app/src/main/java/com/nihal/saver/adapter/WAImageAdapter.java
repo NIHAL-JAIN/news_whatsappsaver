@@ -46,7 +46,7 @@ public class WAImageAdapter extends
 
         //Setting text over text view
         RequestOptions centerCrop = new RequestOptions().override(holder.imageView.getWidth(), holder.imageView.getHeight()).centerCrop();
-        Glide.with(context).asBitmap().apply(centerCrop).load((String) arrayList.get(position).getPath()).transition(BitmapTransitionOptions.withCrossFade()).into(holder.imageView);
+        Glide.with(context).asBitmap().apply(centerCrop).load((String) arrayList.get(position).getPath()).transition(BitmapTransitionOptions.withCrossFade(1111)).into(holder.imageView);
 
         if(mSelectedItemsIds.get(position))
             holder.imageViewCheck.setVisibility(View.VISIBLE);

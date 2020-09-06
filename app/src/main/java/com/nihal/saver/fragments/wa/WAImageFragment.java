@@ -10,6 +10,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentActivity;
 import androidx.fragment.app.FragmentTransaction;
+import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -122,6 +123,8 @@ public class WAImageFragment extends Fragment {
 
     private void populateRecyclerView() {
         recyclerView.setHasFixedSize(true);
+        //to increase grid colum increment span count
+        //but fro list view replace "GridLayoutManager(activity, 8)" with " LinearLayoutManager(activity)"
         recyclerView.setLayoutManager(new GridLayoutManager(activity, 2));
         getStatus();
         waImageAdapter = new WAImageAdapter(activity, arrayList);
@@ -219,7 +222,7 @@ public class WAImageFragment extends Fragment {
                                     String str = file.getName().toString();
                                     if (str.endsWith(".jpg") || str.endsWith(".jpeg") || str.endsWith(".png")) {
                                         HelperMethods helperMethods = new HelperMethods(activity.getApplicationContext());
-                                        HelperMethods.transfer(file);
+                                        HelperMethods.transfer(file);  ///ite se story saver folder me ja rahi hai dyan rkhito
                                     }
                                     i++;
                                 } catch (Exception e) {
@@ -293,7 +296,7 @@ public class WAImageFragment extends Fragment {
         }
 //        waImageAdapter.notifyDataSetChanged();
         waImageAdapter.updateData(new ArrayList<WAImageModel>());
-        populateRecyclerView();
+        populateRecyclerView(); // ite se refresh hoke fir se recycler view generate hoga
         swipeRefreshLayout.setRefreshing(false);
     }
 
