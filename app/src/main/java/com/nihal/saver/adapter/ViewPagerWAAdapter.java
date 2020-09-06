@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * Created by umer on 19-Apr-18.
+ * Created by nihal
  */
 
 public class ViewPagerWAAdapter extends FragmentPagerAdapter {

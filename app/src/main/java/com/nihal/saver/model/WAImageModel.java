@@ -1,7 +1,7 @@
 package com.nihal.saver.model;
 
 /**
- * Created by umer on 25-Apr-18.
+ * Created by satyam
  */
 
 public class WAImageModel {

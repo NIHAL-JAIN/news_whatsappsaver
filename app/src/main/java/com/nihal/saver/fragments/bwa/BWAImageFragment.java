@@ -47,7 +47,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * Created by umer on 03-May-18.
+ * Created by nihal
  */
 
 public class BWAImageFragment extends Fragment {

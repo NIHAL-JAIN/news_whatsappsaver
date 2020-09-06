@@ -7,7 +7,7 @@ import android.widget.ImageView;
 import com.nihal.saver.R;
 
 /**
- * Created by umer on 01-May-18.
+ * Created by nihal
  */
 
 public class VideoViewHolder extends RecyclerView.ViewHolder {

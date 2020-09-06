@@ -10,7 +10,7 @@
     <item
         android:id="@+id/action_delete"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="delete"
         android:icon="@drawable/icons_delete"
         app:showAsAction="always" />
 

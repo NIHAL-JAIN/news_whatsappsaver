@@ -17,7 +17,7 @@ import com.nihal.saver.recycler.VideoViewHolder;
 import java.util.ArrayList;
 
 /**
- * Created by SONU on 27/03/16.
+ * Created by nihal
  */
 public class WAVideoAdapter extends
         RecyclerView.Adapter<VideoViewHolder> {

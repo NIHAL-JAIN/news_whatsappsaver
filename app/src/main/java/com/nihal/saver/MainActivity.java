@@ -123,7 +123,7 @@ public class MainActivity extends AppCompatActivity
             Intent intent = new Intent("android.intent.action.SEND");
             intent.setType("text/plain");
             intent.putExtra("android.intent.extra.SUBJECT", "Share WApp Status Saver App");
-            intent.putExtra("android.intent.extra.TEXT", "Try this Awesome App 'WhatsApp Status Saver' which helps you in Saving all the WhatsApp Statuses ..! \nhttps://play.google.com/store/apps/details?id=com.bestwhatsappstatus.saver");
+            intent.putExtra("android.intent.extra.TEXT", "Try this Awesome App 'WhatsApp Status Saver' which helps you in Saving all the WhatsApp Statuses ..! \nhttps://play.google.com/store/apps/details?id=com.nihal.saver");
             startActivity(Intent.createChooser(intent, "Share Via"));
             return true;
         }

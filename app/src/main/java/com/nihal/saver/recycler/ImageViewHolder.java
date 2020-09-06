@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import com.nihal.saver.R;
 
 /**
- * Created by SONU on 27/03/16.
+ * Created by satyam
  */
 public class ImageViewHolder extends RecyclerView.ViewHolder {
 

@@ -24,7 +24,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:paddingLeft="@dimen/nav_header_vertical_spacing"
-        android:text="Whatsapp status Saver"
+        android:text="Whatsapp Status Saver"
         android:textSize="22sp"
         android:textStyle="bold"
         android:textColor="@android:color/white"

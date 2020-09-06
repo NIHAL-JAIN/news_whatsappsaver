@@ -16,7 +16,7 @@
     <item
         android:id="@+id/action_whatsapp"
         android:orderInCategory="100"
-        android:title="Whatsappa"
+        android:title="Whatsapp"
         android:icon="@drawable/whatsappg"
         app:showAsAction="ifRoom" />
 </menu>

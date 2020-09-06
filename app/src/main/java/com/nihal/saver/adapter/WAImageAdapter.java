@@ -17,7 +17,7 @@ import com.nihal.saver.model.WAImageModel;
 import java.util.ArrayList;
 
 /**
- * Created by SONU on 27/03/16.
+ * Created by Satyam
  */
 public class WAImageAdapter extends
         RecyclerView.Adapter<ImageViewHolder> {
