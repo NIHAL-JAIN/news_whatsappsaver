@@ -34,7 +34,7 @@ public class WAFragment extends Fragment {
         adapter.addTabs("Images",new WAImageFragment());
         adapter.addTabs("Videos",new WAVideoFragment());
 //@@@ we can add new tabs here-
-        viewPager.setAdapter(adapter);
+        viewPager.setAdapter(adapter); /////////////////////
         tabLayout.setupWithViewPager(viewPager);
         return v;
     }

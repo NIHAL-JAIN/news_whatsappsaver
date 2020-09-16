@@ -100,7 +100,11 @@ public class WAVideoFragment extends Fragment {
                 refresh();
             }
         });
-        fab = (FloatingActionButton) v.findViewById(R.id.wa_video_fab_save_all);
+        fab = (FloatingActionButton) v.findViewById(R.id.wa_video_fab_save_all); ///////
+        /////
+        ////////////// floating action button for save allllllll
+        /////////////////////////////////////////
+        /////////////////////////////////////////////////////////////////////////
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
