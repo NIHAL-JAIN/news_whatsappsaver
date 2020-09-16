@@ -1,4 +1,4 @@
-package com.nihal.saver;
+package com.satyamnihal.saver;
 
 
 import android.app.ActivityManager;
@@ -23,8 +23,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
-import com.nihal.saver.fragments.bwa.BWAFragment;
-import com.nihal.saver.fragments.wa.WAFragment;
+import com.satyamnihal.saver.fragments.bwa.BWAFragment;
+import com.satyamnihal.saver.fragments.wa.WAFragment;
 import java.io.File;
 import hotchemi.android.rate.AppRate;
 import hotchemi.android.rate.OnClickButtonListener;
@@ -56,9 +56,9 @@ public class MainActivity extends AppCompatActivity
 
 
         try {
-            if (!isMyServiceRunning(Class.forName("com.nihal.saver.service.NotificationService"))) {
+            if (!isMyServiceRunning(Class.forName("com.satyamnihal.saver.service.NotificationService"))) {
                 try {
-                    startService(new Intent(this, Class.forName("com.nihal.saver.service.NotificationService")));
+                    startService(new Intent(this, Class.forName("com.satyamnihal.saver.service.NotificationService")));
                 } catch (Throwable e) {
                     throw new NoClassDefFoundError(e.getMessage());
                 }

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.nihal.saver">
+    package="com.satyamnihal.saver">
 
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
@@ -22,7 +22,7 @@
         <provider
             android:name="androidx.core.content.FileProvider"
             android:exported="false"
-            android:authorities="com.nihal.saver.provider"
+            android:authorities="com.satyamnihal.saver.provider"
             android:grantUriPermissions="true">
             <meta-data
                 android:name="android.support.FILE_PROVIDER_PATHS"
@@ -30,13 +30,13 @@
         </provider>
 
         <activity
-            android:name="com.nihal.saver.MainActivity"
+            android:name="com.satyamnihal.saver.MainActivity"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name="com.nihal.saver.viewer.ImageViewer" />
-        <activity android:name="com.nihal.saver.viewer.VideoPlayer" />
+        <activity android:name="com.satyamnihal.saver.viewer.ImageViewer" />
+        <activity android:name="com.satyamnihal.saver.viewer.VideoPlayer" />
         <activity
-            android:name="com.nihal.saver.activity.SplashActivity"
+            android:name="com.satyamnihal.saver.activity.SplashActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/app_name"
             android:theme="@style/FullscreenTheme">
@@ -47,10 +47,10 @@
             </intent-filter>
         </activity>
 
-        <service android:name="com.nihal.saver.service.NotificationService" />
+        <service android:name="com.satyamnihal.saver.service.NotificationService" />
 
         <receiver
-            android:name="com.nihal.saver.service.reciever.BootReceiver"
+            android:name="com.satyamnihal.saver.service.reciever.BootReceiver"
             android:enabled="false">
             <intent-filter>
                 <action android:name="android.intent.action.BOOT_COMPLETED" />
@@ -60,7 +60,7 @@
             </intent-filter>
         </receiver>
         <receiver
-            android:name="com.nihal.saver.service.reciever.NotificationReceiver"
+            android:name="com.satyamnihal.saver.service.reciever.NotificationReceiver"
             android:enabled="false"
             android:exported="false"/>
     </application>

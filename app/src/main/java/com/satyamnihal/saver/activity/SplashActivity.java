@@ -1,4 +1,4 @@
-package com.nihal.saver.activity;
+package com.satyamnihal.saver.activity;
 
 import android.Manifest;
 import android.content.Intent;
@@ -10,8 +10,8 @@ import android.os.Handler;
 import android.view.View;
 import android.view.WindowManager;
 
-import com.nihal.saver.MainActivity;
-import com.nihal.saver.R;
+import com.satyamnihal.saver.MainActivity;
+import com.satyamnihal.saver.R;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.

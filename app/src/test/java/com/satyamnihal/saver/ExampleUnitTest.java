@@ -1,4 +1,4 @@
-package com.nihal.saver;
+package com.satyamnihal.saver;
 
 import org.junit.Test;
 

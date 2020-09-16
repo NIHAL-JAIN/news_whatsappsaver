@@ -1,4 +1,4 @@
-package com.nihal.saver;
+package com.satyamnihal.saver;
 
 /**
  * Created by satyam

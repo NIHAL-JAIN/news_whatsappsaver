@@ -1,4 +1,4 @@
-package com.nihal.saver.recycler;
+package com.satyamnihal.saver.recycler;
 
 import android.content.Context;
 import androidx.recyclerview.widget.RecyclerView;

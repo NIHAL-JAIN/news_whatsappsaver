@@ -1,4 +1,4 @@
-package com.nihal.saver.recycler;
+package com.satyamnihal.saver.recycler;
 
 
 import android.content.Context;
@@ -14,17 +14,17 @@ import android.view.MenuItem;
 import android.widget.Toast;
 
 import com.google.android.gms.ads.InterstitialAd;
-import com.nihal.saver.GenericAdapter;
-import com.nihal.saver.HelperMethods;
-import com.nihal.saver.InstanceHandler;
-import com.nihal.saver.R;
-import com.nihal.saver.adapter.WAImageAdapter;
-import com.nihal.saver.adapter.WAVideoAdapter;
-import com.nihal.saver.fragments.bwa.BWAImageFragment;
-import com.nihal.saver.fragments.bwa.BWAVideoFragment;
-import com.nihal.saver.fragments.wa.WAImageFragment;
-import com.nihal.saver.fragments.wa.WAVideoFragment;
-import com.nihal.saver.model.WAImageModel;
+import com.satyamnihal.saver.GenericAdapter;
+import com.satyamnihal.saver.HelperMethods;
+import com.satyamnihal.saver.InstanceHandler;
+import com.satyamnihal.saver.R;
+import com.satyamnihal.saver.adapter.WAImageAdapter;
+import com.satyamnihal.saver.adapter.WAVideoAdapter;
+import com.satyamnihal.saver.fragments.bwa.BWAImageFragment;
+import com.satyamnihal.saver.fragments.bwa.BWAVideoFragment;
+import com.satyamnihal.saver.fragments.wa.WAImageFragment;
+import com.satyamnihal.saver.fragments.wa.WAVideoFragment;
+import com.satyamnihal.saver.model.WAImageModel;
 import java.io.File;
 import java.util.ArrayList;
 

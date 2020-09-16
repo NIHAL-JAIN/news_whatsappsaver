@@ -1,4 +1,4 @@
-package com.nihal.saver.fragments.bwa;
+package com.satyamnihal.saver.fragments.bwa;
 
 
 import android.os.Bundle;
@@ -9,9 +9,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.nihal.saver.R;
-import com.nihal.saver.adapter.ViewPagerWAAdapter;
-import com.nihal.saver.fragments.wa.WAVideoFragment;
+import com.satyamnihal.saver.R;
+import com.satyamnihal.saver.adapter.ViewPagerWAAdapter;
+import com.satyamnihal.saver.fragments.wa.WAVideoFragment;
 
 /**
  * A simple {@link Fragment} subclass.

@@ -1,4 +1,4 @@
-package com.nihal.saver.adapter;
+package com.satyamnihal.saver.adapter;
 
 import android.content.Context;
 import androidx.recyclerview.widget.RecyclerView;
@@ -10,9 +10,9 @@ import android.view.ViewGroup;
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.load.resource.bitmap.BitmapTransitionOptions;
 import com.bumptech.glide.request.RequestOptions;
-import com.nihal.saver.recycler.ImageViewHolder;
-import com.nihal.saver.R;
-import com.nihal.saver.model.WAImageModel;
+import com.satyamnihal.saver.recycler.ImageViewHolder;
+import com.satyamnihal.saver.R;
+import com.satyamnihal.saver.model.WAImageModel;
 
 import java.util.ArrayList;
 

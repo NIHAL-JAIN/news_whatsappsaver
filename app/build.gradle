@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "com.nihal.saver"
+        applicationId "com.satyamnihal.saver"
         minSdkVersion 19
         targetSdkVersion 29
         versionCode 11

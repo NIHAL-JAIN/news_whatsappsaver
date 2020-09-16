@@ -1,4 +1,4 @@
-package com.nihal.saver.service.reciever;
+package com.satyamnihal.saver.service.reciever;
 
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -10,8 +10,8 @@ import android.os.Environment;
 import androidx.core.app.NotificationCompat.Builder;
 import androidx.core.content.ContextCompat;
 import android.util.Log;
-import com.nihal.saver.HelperMethods;
-import com.nihal.saver.R;
+import com.satyamnihal.saver.HelperMethods;
+import com.satyamnihal.saver.R;
 import java.io.File;
 
 public class NotificationReceiver extends BroadcastReceiver {
@@ -72,7 +72,7 @@ public class NotificationReceiver extends BroadcastReceiver {
             if (bool.booleanValue()) {
                 this.notifManager.cancel(420);
                 try {
-                    activity = PendingIntent.getActivity(this.context, 4896, new Intent(this.context, Class.forName("com.nihal.saver.MainActivity")), 0);
+                    activity = PendingIntent.getActivity(this.context, 4896, new Intent(this.context, Class.forName("com.satyamnihal.saver.MainActivity")), 0);
                     builder = new Builder(this.context);
                     builder.setContentText("All Statuses Saved! ✓").setContentIntent(activity).setColor(ContextCompat.getColor(this.context, R.color.colorAccent)).setSmallIcon(R.drawable.notif);
                     this.notifManager.notify(4896, builder.build());
@@ -83,7 +83,7 @@ public class NotificationReceiver extends BroadcastReceiver {
             if (!bool.booleanValue()) {
                 this.notifManager.cancel(420);
                 try {
-                    activity = PendingIntent.getActivity(this.context, 4896, new Intent(this.context, Class.forName("com.nihal.saver.MainActivity")), 0);
+                    activity = PendingIntent.getActivity(this.context, 4896, new Intent(this.context, Class.forName("com.satyamnihal.saver.MainActivity")), 0);
                     builder = new Builder(this.context);
                     builder.setContentText("There was a problem Saving All of the Statuses!").setContentIntent(activity).setColor(ContextCompat.getColor(this.context, R.color.colorAccent)).setSmallIcon(17301543);
                     this.notifManager.notify(4896, builder.build());
@@ -107,7 +107,7 @@ public class NotificationReceiver extends BroadcastReceiver {
             notificationManager.cancelAll();
             closePanel(context);
             try {
-                Intent intent2 = new Intent(context, Class.forName("com.nihal.saver.MainActivity"));
+                Intent intent2 = new Intent(context, Class.forName("com.satyamnihal.saver.MainActivity"));
 //                intent2.addFlags(335577088);
                 context.startActivity(intent2);
             } catch (Throwable e) {

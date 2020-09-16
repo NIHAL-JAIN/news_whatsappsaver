@@ -1,4 +1,4 @@
-package com.nihal.saver.viewer;
+package com.satyamnihal.saver.viewer;
 
 import android.annotation.SuppressLint;
 import android.content.ActivityNotFoundException;
@@ -21,8 +21,8 @@ import com.github.clans.fab.FloatingActionMenu;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
-import com.nihal.saver.HelperMethods;
-import com.nihal.saver.R;
+import com.satyamnihal.saver.HelperMethods;
+import com.satyamnihal.saver.R;
 
 import java.io.File;
 

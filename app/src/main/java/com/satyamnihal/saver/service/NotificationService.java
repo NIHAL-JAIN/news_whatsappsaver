@@ -1,4 +1,4 @@
-package com.nihal.saver.service;
+package com.satyamnihal.saver.service;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -12,8 +12,8 @@ import androidx.core.app.NotificationCompat.Builder;
 import androidx.core.content.ContextCompat;
 import android.util.Log;
 
-import com.nihal.saver.HelperMethods;
-import com.nihal.saver.R;
+import com.satyamnihal.saver.HelperMethods;
+import com.satyamnihal.saver.R;
 
 import java.io.File;
 import java.util.Date;
@@ -81,7 +81,7 @@ public class NotificationService extends Service {
     public void onDestroy() {
         super.onDestroy();
         try {
-            Intent intent = new Intent(this, Class.forName("com.nihal.saver.service.reciever.BootReceiver"));
+            Intent intent = new Intent(this, Class.forName("com.satyamnihal.saver.service.reciever.BootReceiver"));
             intent.setAction("com.whatsappstatus.notif.onDestroyed");
             sendBroadcast(intent);
         } catch (Throwable e) {
@@ -97,7 +97,7 @@ public class NotificationService extends Service {
         String stringBuffer = new StringBuffer().append(Environment.getExternalStorageDirectory().getAbsolutePath()).append("/WhatsApp/Media/.Statuses/").toString();
         notification = new Builder(this);
         try {
-            notification.setContentTitle("Status Saver").setContentText("New Image Status, Refresh Now!").setContentIntent(PendingIntent.getActivity(this, 0, new Intent(this, Class.forName("com.nihal.saver.MainActivity")), 0)).setSmallIcon(R.drawable.notif).setShowWhen(true).setVibrate(new long[]{(long) 100, (long) 100, (long) 100, (long) 100}).setColor(ContextCompat.getColor(this, R.color.colorAccent));
+            notification.setContentTitle("Status Saver").setContentText("New Image Status, Refresh Now!").setContentIntent(PendingIntent.getActivity(this, 0, new Intent(this, Class.forName("com.satyamnihal.saver.MainActivity")), 0)).setSmallIcon(R.drawable.notif).setShowWhen(true).setVibrate(new long[]{(long) 100, (long) 100, (long) 100, (long) 100}).setColor(ContextCompat.getColor(this, R.color.colorAccent));
             this.notif = notification.getNotification();
             Notification notification = this.notif;
             notification.flags |= 8;
@@ -112,7 +112,7 @@ public class NotificationService extends Service {
         String stringBuffer = new StringBuffer().append(Environment.getExternalStorageDirectory().getAbsolutePath()).append("/WhatsApp/Media/.Statuses/").toString();
         notification = new Builder(this);
         try {
-            notification.setContentTitle("Status Saver").setContentText("New Video Status, Refresh Now!").setContentIntent(PendingIntent.getActivity(this, 1, new Intent(this, Class.forName("com.nihal.saver.MainActivity")), 0)).setSmallIcon(R.drawable.notif).setShowWhen(true).setVibrate(new long[]{(long) 100, (long) 100, (long) 100, (long) 100}).setColor(ContextCompat.getColor(this, R.color.colorAccent));
+            notification.setContentTitle("Status Saver").setContentText("New Video Status, Refresh Now!").setContentIntent(PendingIntent.getActivity(this, 1, new Intent(this, Class.forName("com.satyamnihal.saver.MainActivity")), 0)).setSmallIcon(R.drawable.notif).setShowWhen(true).setVibrate(new long[]{(long) 100, (long) 100, (long) 100, (long) 100}).setColor(ContextCompat.getColor(this, R.color.colorAccent));
             this.notif = notification.getNotification();
             Notification notification = this.notif;
             notification.flags |= 8;

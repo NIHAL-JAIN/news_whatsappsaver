@@ -17,6 +17,6 @@
         android:id="@+id/action_whatsapp"
         android:orderInCategory="100"
         android:title="Whatsapp"
-        android:icon="@drawable/whatsappg"
+        android:icon="@drawable/ic_whatsappnang"
         app:showAsAction="ifRoom" />
 </menu>

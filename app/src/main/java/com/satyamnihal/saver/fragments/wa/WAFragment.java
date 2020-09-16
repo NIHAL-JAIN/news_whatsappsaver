@@ -1,4 +1,4 @@
-package com.nihal.saver.fragments.wa;
+package com.satyamnihal.saver.fragments.wa;
 
 import android.os.Bundle;
 import com.google.android.material.tabs.TabLayout;
@@ -8,8 +8,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.nihal.saver.R;
-import com.nihal.saver.adapter.ViewPagerWAAdapter;
+import com.satyamnihal.saver.R;
+import com.satyamnihal.saver.adapter.ViewPagerWAAdapter;
 
 
 public class WAFragment extends Fragment {

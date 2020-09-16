@@ -1,4 +1,4 @@
-package com.nihal.saver.fragments.bwa;
+package com.satyamnihal.saver.fragments.bwa;
 
 
 import android.app.Activity;
@@ -28,16 +28,16 @@ import com.google.android.gms.ads.AdSize;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.google.android.gms.ads.MobileAds;
-import com.nihal.saver.GenericAdapter;
-import com.nihal.saver.HelperMethods;
-import com.nihal.saver.InstanceHandler;
-import com.nihal.saver.R;
-import com.nihal.saver.adapter.WAVideoAdapter;
-import com.nihal.saver.model.WAImageModel;
-import com.nihal.saver.recycler.RecyclerClick_Listener;
-import com.nihal.saver.recycler.RecyclerTouchListener;
-import com.nihal.saver.recycler.ToolbarActionModeCallback;
-import com.nihal.saver.viewer.VideoPlayer;
+import com.satyamnihal.saver.GenericAdapter;
+import com.satyamnihal.saver.HelperMethods;
+import com.satyamnihal.saver.InstanceHandler;
+import com.satyamnihal.saver.R;
+import com.satyamnihal.saver.adapter.WAVideoAdapter;
+import com.satyamnihal.saver.model.WAImageModel;
+import com.satyamnihal.saver.recycler.RecyclerClick_Listener;
+import com.satyamnihal.saver.recycler.RecyclerTouchListener;
+import com.satyamnihal.saver.recycler.ToolbarActionModeCallback;
+import com.satyamnihal.saver.viewer.VideoPlayer;
 
 import org.apache.commons.io.comparator.LastModifiedFileComparator;
 

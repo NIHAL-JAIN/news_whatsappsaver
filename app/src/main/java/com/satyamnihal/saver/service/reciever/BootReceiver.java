@@ -1,10 +1,10 @@
-package com.nihal.saver.service.reciever;
+package com.satyamnihal.saver.service.reciever;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 
-import com.nihal.saver.service.NotificationService;
+import com.satyamnihal.saver.service.NotificationService;
 
 public class BootReceiver extends BroadcastReceiver {
     @Override

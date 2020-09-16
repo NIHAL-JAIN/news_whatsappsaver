@@ -1,11 +1,11 @@
-package com.nihal.saver.recycler;
+package com.satyamnihal.saver.recycler;
 
 
 import androidx.recyclerview.widget.RecyclerView;
 import android.view.View;
 import android.widget.ImageView;
 
-import com.nihal.saver.R;
+import com.satyamnihal.saver.R;
 
 /**
  * Created by satyam

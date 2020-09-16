@@ -1,4 +1,4 @@
-package com.nihal.saver.model;
+package com.satyamnihal.saver.model;
 
 /**
  * Created by satyam

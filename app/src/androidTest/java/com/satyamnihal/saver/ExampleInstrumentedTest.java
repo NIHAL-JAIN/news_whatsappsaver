@@ -1,4 +1,4 @@
-package com.nihal.saver;
+package com.satyamnihal.saver;
 
 import android.content.Context;
 import androidx.test.platform.app.InstrumentationRegistry;

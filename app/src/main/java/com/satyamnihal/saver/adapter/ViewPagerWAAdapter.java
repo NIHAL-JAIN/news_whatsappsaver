@@ -1,4 +1,4 @@
-package com.nihal.saver.adapter;
+package com.satyamnihal.saver.adapter;
 
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
